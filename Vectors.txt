@@ -1,0 +1,20 @@
+print// v.at(i);
+
+
+push_back()
+size()
+front()
+back()
+clear()
+empty()
+pop_back()
+
+erase()//   v.erase(v.begin() + index)
+erase in range//    v.erase(v.begin() + index - 1, v.begin() + end_index()+1);
+
+inset()//   v.inser(v.begin() + index - 1, value);
+insert in range//  v.insert(v.begin() + index -1, number_of_times, value); 
+
+swap()//    swap(vector_name_1, vector_name_2);
+sort()
+reverse()
