@@ -1,0 +1,32 @@
+To innitialize- git init
+git status- to see current status.
+git add . - to add all the files.
+git add "filename"- to add a particular file.
+git remote add origin "repository link"- to add the changes to repository.
+
+git commit -m " "comment"(comment must be in inverted comma) " - to add a commit.
+Must commit before push.
+
+git branch -M "branchname"- to create a branch.
+
+git push -u origin "branchname" - to push in the branch.
+A fatal error happens. 
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+This is because I don't have permission to push or I am not the authenticate user.
+To solve this I need the permission.
+
+go to-
+Account setting -> Developer setting-> Personal access tokens
+Create a new token- Give access to repo[must](fill the checkbox) & others you want to give access.
+
+clear- to clear the terminal window.
+git remote -v - to see the remote origin of where to push.
+go to the repo you want to push.
+go to HTTPS. copy the link.
+git remote set-url origin- to change the remote origin.
+git remote set-url origin copy the link.
+git remote set-url origin https://(copy the token here)(Write"@")github.com/username/repo name.
+Now push by the command- git push origin "branchname".
+
+You are Done.
